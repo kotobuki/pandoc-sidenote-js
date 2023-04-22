@@ -1,6 +1,6 @@
 # pandoc-sidenote.js
 
-`pandoc-sidenote.js` is a simple Pandoc filter that converts footnotes to side notes or margin notes in HTML documents. It is inspired by [`pandoc-sidenote`](https://github.com/jez/pandoc-sidenote) by Jacob Zimmerman et al. and implemented in JavaScript.This filter automatically converts URLs to links as an enhancement over the original version.
+`pandoc-sidenote.js` is a simple Pandoc filter that converts footnotes to side notes or margin notes in Markdown documents. It is inspired by [`pandoc-sidenote`](https://github.com/jez/pandoc-sidenote) by Jacob Zimmerman et al. and implemented in JavaScript.This filter automatically converts URLs to links as an enhancement over the original version.
 
 ## Usage
 
@@ -18,7 +18,7 @@ I would like to express my gratitude to the developers of the original [pandoc-s
 
 ---
 
-`pandoc-sidenote.js`は、HTML文書内の脚注を傍注（side note：番号あり・margin note：番号なし）に変換するシンプルなPandocフィルターです。Jacob Zimmermanらによる[`pandoc-sidenote`](https://github.com/jez/pandoc-sidenote)から着想を得てJavaScriptで実装されています。オリジナル版からの機能拡張として、URLを自動的にリンクに変換します。
+`pandoc-sidenote.js`は、Markdown文書内の脚注を傍注（side note：番号あり・margin note：番号なし）に変換するシンプルなPandocフィルターです。Jacob Zimmermanらによる[`pandoc-sidenote`](https://github.com/jez/pandoc-sidenote)から着想を得てJavaScriptで実装されています。オリジナル版からの機能拡張として、URLを自動的にリンクに変換します。
 
 ## 使い方
 
